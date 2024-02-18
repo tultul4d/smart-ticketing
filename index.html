@@ -11,11 +11,157 @@
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header>
+    <header  class="lg:mx-20 ">
 
+        <!-- custom css -->
+        <link rel="stylesheet" href="./style/style.css">
+        <!-- nave bar start -->
+        <div class="navbar bg-base-100 ">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Home</a></li>
+                  <li><a>Parent</a> </li>
+                  <li><a>Destination</a></li>
+                  <li><a>Search</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost lg:text-4xl text-2xl">P-Ticket</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal lg:px-1">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end  lg:flex">
+              <a class="btn text-[#1DD100] border-[#1DD10066] bg-[#1DD1001A]">Bus <img src="./images/bus-icon.png" alt=""></a>
+            </div>
+          </div>
+          <!-- navbar end -->
+          <!-- banner start -->
+          <div class="hero lg:min-h-screen " style="background-image: url(./images/banner.png);">
+            <div class="bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="lg:max-w-md gap-10">
+                <h1 class="mb-8 lg:text-4xl font-bold">End-to-End Travel with</h1>
+                <h1 class="lg:text-4xl font-bold text-[#1DD100] mb-8">P-Paribahan</h1>
+                <p class="mb-8 ">A bus is a road vehicle that carries significantly more passengers than an average car or van, but less than the average rail transport. </p>
+                <button class="btn  bg-[#1DD100] text-black border-[#1DD100] gap-5">Buy Tickets</button>
+              </div>
+            </div>
+          </div>
+          <!-- banner end -->
     </header>
     <main>
+      <section class=" ">
+        <h1 class="lg:text-4xl text-2xl text-blod flex  items-center justify-center mt-10">Best offers for you</h1>
+            <div class="lg:flex   lg:justify-between  lg:mx-28 mt-10  ">
 
+                <div class=" flex lg:w-[560px]  lg:h-60  bg-[#FFBF0F] ">
+                    <div class="card-body ">
+                      <h2 class="card-title lg:text-4xl text-black lg:text-exbold">15% OFF!</h2>
+                      <p class="lg:text-2xl text-[#030712]">on your next purchase</p>
+                      <p class="lg:text-2xl text-[#0307124D] -mt-12">use by january</p>
+                     
+                    </div>
+                    <div class="re-font lg:p-20 ">
+                        <h2 class="lg:text-4xl text-black text-exbold">NEW15</h2>
+                        <p class="lg:text-2xl text-[#0307124D]">Coupon Code</p>
+                    </div>
+                    
+                  </div>
+                  <div class=" flex lg:w-[560px] lg:h-60 bg-[#F78C9C] ">
+                    <div class="card-body ">
+                      <h2 class="card-title lg:text-4xl text-black text-bold">25% OFF</h2>
+                      <p class="lg:text-2xl text-[#030712]">on your next purchase</p>
+                      <p class="lg:text-2xl text-[#0307124D] lg:-mt-12">use by january</p>
+                      
+                    </div>
+                    <div class="re-font lg:p-20 ">
+                        <h2 class="lg:text-4xl text-black text-exbold">Couple20</h2>
+                        <p class="lg:text-2xl text-[#0307124D]">Coupon Code</p>
+                    </div>
+                  </div>
+        </div>
+        <div class="flex items-center justify-center mt-10">
+            <button class="btn text-[#1DD100] border-[#1DD100]">See All Offers</button>
+        </div>
+      </section>
+      <section class="lg:mt-36 mt-10 border-t-2 border-[#1DD100] rounded-t-[200px]  min-h-screen bg-[#F7F8F8] ">
+        <div class="text-center lg:w-[600px] lg:ml-96 inter-font">
+            <h1 class="lg:text-4xl mt-20 text-black font-bold">T.R Paribahan</h1>
+            <p class="lg:text-xl mt-5 text-[#03071299]">Bus tickets are often cheaper than airfare or rail travel, allowing you to save money on your trip and spend it on other necessities. </p>
+        </div>
+        <!-- ticket start -->
+        <div class="flex bg-[#FFFFFF] border-2">
+            
+            <!-- tic start -->
+            <div class="w-[900px]">
+                <!-- poribahan start -->
+                <div> 
+                    <div class="flex justify-between">
+                        <div class="flex">
+                             <div class="">
+                               <img src="./images/bus-logo.png" alt="">
+                             </div>
+                             <div>
+                                <h1>Greenline Paribahan</h1>
+                            <p>Coach-009-WEB ! AC_Business</p></div>
+                        </div>
+                        <div class="flex">
+                            <div>
+                                <img src="./images/seat-green.png" alt="">
+                            </div>
+                            <div>
+                                <button>40 Seats left</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- paribahan end -->
+                
+                <!-- rutel start -->
+                <div>
+                    <div class="re-font bg-[#F7F8F8] ">
+                        <div class="flex justify-between bg-[#F7F8F8]">
+                         <h1  class="text-[#03071299] ">Route</h1>
+                         <P class="text-black">Dhaka-sylhet</P>
+                        </div>
+                    </div>
+                    <div class="flex justify-between bg-[#F7F8F8]">
+                       <h1 class="text-[#03071299]">Departure Time</h1>
+                       <p class="text-black">9:00 PM</p>
+                    </div>
+                </div>
+                <!-- ruter end -->
+                 <!-- btn start -->
+               <div class="flex justify-between bg-[#F7F8F8]">
+                <div class="bg-[#0307120D] rounded-sm p-5">Boarding Point - Laxmipur</div>
+                <div class="bg-[#0307120D] rounded-sm p-5">Dropping Point - Bogura</div>
+                <div class="bg-[#0307120D] rounded-sm p-5">Est. Time - 11 Hour</div>
+               </div>
+            <!-- btn end -->
+            </div>
+            <!-- tic end -->
+            <!-- tk start -->
+            <div class="re-font lg:ml-36">
+                <img src="./images/fare.png" alt="">
+                <h1 class="lg:text-4xl font-bold">550 Taka</h1>
+                <p class="lg:text-2xl font-semibold text-[#03071299]">Per Seat</p>
+            </div>
+            <!-- tk end -->
+           
+            
+        </div>
+        <!-- ticket end -->
+
+      </section>
     </main>
     <footer>
 
