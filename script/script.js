@@ -28,7 +28,7 @@ for(let bed of allBed){
             seatLeft.innerText = bedNumber;
 
 
-            const ticket = e.target.parentNode.childNodes[3].innerText;
+            const ticket = bed.innerText;
             // console.log(ticket);
 
             
