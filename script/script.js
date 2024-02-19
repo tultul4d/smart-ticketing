@@ -1,6 +1,6 @@
 const allBed = document.getElementsByClassName('bed');
 let  countSeat =0;
-let seatLeft =0;
+let seatLeft =40;
 let totalPriceCount=0;
 let clickCount =0;
 
@@ -12,5 +12,6 @@ for(let bed of allBed){
         let bedText = parseInt(bedAdd.innerText);
         countSeat += 1;
         bedAdd.innerText = countSeat;
+    
     })
 }
