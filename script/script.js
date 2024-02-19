@@ -68,7 +68,21 @@ for(let bed of allBed){
                     const discount = totalPrice * 0.15;
                     const totalDiscount = totalPrice - discount;
                     grandTotal.innerText = totalDiscount;
+                    const gaibe = document.getElementById('gaibolhaya');
+                    gaibe.style.display = "none";
+
                     console.log(totalDiscount);
+                }
+                else if(couponCode === "Couple 20"){
+                    const discount = totalPrice * 0.2;
+                    const totalDiscount = totalPrice - discount;
+                    grandTotal.innerText = totalDiscount;
+                    const delet = document.getElementById('gaibolhaya');
+                    delet.style.display = "none";
+                    console.log(totalDiscount);
+                }
+                else{
+
                 }
             })
 
